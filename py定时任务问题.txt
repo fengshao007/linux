@@ -1,0 +1,6 @@
+1.执行找不到安装的包
+解决办法
+1.1
+/home/yitops/anaconda3/bin/python /home/yitops/yit_etl/yit_py3/Vopt.py > /home/yitops/yit_etl/yit_py3/logs/${day}.log 2>&1 &
+1.2 py脚本加路径
+#!/user/bin/env python
